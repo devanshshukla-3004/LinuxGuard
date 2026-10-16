@@ -1,0 +1,10 @@
+{
+  "os": {"name": "Synthetic Linux Lab"},
+  "ssh_config": "PermitRootLogin yes\nPasswordAuthentication yes\n",
+  "ufw_active": false,
+  "firewall_tool": null,
+  "sensitive_paths": {
+    "/etc/shadow": {"exists": true, "mode": "0o666", "world_writable": true},
+    "/etc/ssh/sshd_config": {"exists": true, "mode": "0o644", "world_writable": false}
+  }
+}
